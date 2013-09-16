@@ -41,6 +41,27 @@ h6 {
 
 p {
   font-size: 1.3em;
+  font-family: 'Block';
+  //cursor: url('http://www.useragentman.com/examples/cursor/canvasPainter/canvas_painter_v0.1/images/gimpBrush.png'), auto;
+}
+
+.a {
+  &:hover {
+    font-family: Arial;
+    letter-spacing: 5px;
+    word-spacing: 9px;
+    background: black;
+    color: #fff;
+    font-size: 1em;
+  }
 }
 
 @include font_face('Block', 'BLOKKNeue-Regular');
+
+canvas {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid red;
+}
