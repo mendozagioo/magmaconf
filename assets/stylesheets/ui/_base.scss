@@ -1,0 +1,41 @@
+html, body {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font: 100 5em/1.1 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 3.5em;
+}
+
+h3 {
+  font-size: 3em;
+}
+
+h4 {
+  font-size: 2.5em;
+}
+
+h5 {
+  font-size: 2em;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.3em;
+}

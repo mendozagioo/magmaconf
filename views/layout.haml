@@ -1,0 +1,22 @@
+!!!
+%html{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}
+    %meta{name: 'viewport', content: 'width=device-width, initial-scale=1.0 maximum-scale=1.0'}
+    %title= t('title')
+    %meta{name: "author", content: "Crowd Interactive - http://crowdint.com"}
+    %meta{content: 'Get ready for MagmaConf 2014', property: 'og:title'}
+    %meta{content: 'http://www.magmaconf.com', property: 'og:url'}
+    %meta{content: 'Magma Conf is a conferences event where people share their knowlede in Ruby / Ruby on Rails, Web development, UX and more. Get ready for Magma Conf 2013. Manzanillo Colima.', property: 'og:description'}
+    %meta{content:'Magma Conf is a conferences event where people share their knowlede in Ruby / Ruby on Rails, Web development, UX and more. Get ready for Magma Conf 2013. Manzanillo Colima.', name: 'description'}
+    %meta{name: "keywords", content: "magmaconf, rails, ruby, UI, UX"}
+    %link{rel: 'stylesheet', href: "http://fonts.googleapis.com/css?family=Roboto:400,300,100|Oswald"}
+    %link{rel: 'stylesheet', href: "#{stylesheet_path 'application'}" }
+  %body
+
+    = yield
+
+    %script{type: "text/javascript", charset: "utf-8", src: "http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"}
+    %script{type: "text/javascript", src: "vendor/javascripts/parallax-scroll.js"}
+    %script{type: "text/javascript", src: "vendor/javascripts/scroll.js"}
+    %script{src: "#{javascript_path 'application'}"}
