@@ -1,7 +1,9 @@
 html, body {
+  
   &::-webkit-scrollbar {
     display: none;
   }
+
 }
 
 h1,
@@ -16,6 +18,7 @@ p {
 
 h2 {
   font-size: 3.5em;
+  font-family: "Block";
 }
 
 h3 {
@@ -39,3 +42,5 @@ h6 {
 p {
   font-size: 1.3em;
 }
+
+@include font_face('Block', 'BLOKKNeue-Regular');
