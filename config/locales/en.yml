@@ -1,3 +1,7 @@
 en:
   title: 'MagmaConf 2014'
-  navigation:
+  home:
+    everything: 'everything'
+    getting: 'is getting'
+    interesting: 'interesting'
+    stay: 'stay tuned...'

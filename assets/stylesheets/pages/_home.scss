@@ -1,1 +1,39 @@
 //HOME
+
+#home {
+  .comingsoon {
+    h1 {
+      -webkit-transform: skew(-2deg, -10deg);
+         -moz-transform: skew(-2deg, -10deg);
+              transform: skew(-2deg, -10deg);
+    }
+  }
+}
+
+#daily {
+  width: 624px;
+  height: 454px;
+  border: 2px solid blue;
+  margin-left: 50px;
+
+  p {
+    font-family: 'Block';
+  }
+}
+
+.lens {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  overflow: hidden;
+  border: 3px solid red;
+  border-radius: 50%;
+  top: 252px;
+  left: 20px;
+
+  img {
+    position: relative;
+    top: 18px;
+    left: 30px;
+  }
+}
