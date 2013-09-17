@@ -9,7 +9,7 @@ class Crowdsite < Sinatra::Base
   register Sinatra::I18n
 
   set :root, File.dirname(__FILE__)
-  set :assets_precompile, %w(application.js application.css *.png *.jpg *.svg *.otf *.eot *ttf)
+  set :assets_precompile, %w(application.js application.css *.png *.jpg *.svg *.ico *.otf *.eot *ttf)
 
   configure do
     sprockets.append_path File.join(root, 'assets', 'stylesheets')
