@@ -1,0 +1,5 @@
+@mixin icons($width, $height, $pos-x, $pos-y) {
+  width: $width;
+  height: $height;
+  background-position: $pos-x $pos-y;
+}
