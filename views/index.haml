@@ -1,18 +1,28 @@
 %section#home.container
-  .centered-three.comingsoon
-    image here
-    %h1
-      %span= t('home.everything')
-      %span= t('home.getting')
-      %span= t('home.interesting')
-    %p= t('home.stay')
-    .social
-      %span.facebook
-      %span.twitter
-      %span.google
-    .logo
-  .centered-five.sponsors
+  .row
+    .centered-three.comingsoon
+      %img{src: "#{image_path 'image.svg'}"}
+      %p= t('home.stay')
+      .social
+        %a.facebook{href: "#"}
+          %i.icon-facebook
+        %a.twitter{href: "#"}
+          %i.icon-twitter
+        %a.google{href: "#"}
+          %i.icon-google
+      %a.arrow{href: "#"}
+        %i.icon-arrow
 
+    .centered-four.sponsors
+      .spons
+        %a{href: "#"}
+          %img{src: "#{image_path 'logo-github.svg'}"}
+      .spons
+        %a{href: "#"}
+          %img{src: "#{image_path 'logo-crowd.svg'}"}
+      .spons
+        %a{href: "#"}
+          %img{src: "#{image_path 'logo-rubycentral.svg'}"}
 
 %section#daily
   %p
@@ -21,5 +31,6 @@
     para que pueda funcionar
     %br
     como lo tengo pensado,
-.lens
-  %img{src: "#{image_path 'natura.jpg'}"}
+
+  .lens
+    %img#img_01{src: "#{image_path 'natura.jpg'}", width: "384", height: "240"}

@@ -4,3 +4,18 @@
   display: inline-block;
 }
 
+.icon-arrow {
+  @include icons(47px, 27px, 0, -49px)
+}
+
+.icon-facebook {
+  @include icons(47px, 27px, -68px, 0)
+}
+
+.icon-twitter {
+  @include icons(47px, 27px, -132px, 0)
+}
+
+.icon-google {
+  @include icons(47px, 27px, -198px, 0)
+}

@@ -10,4 +10,7 @@ $gm-column: 60px;
 $gm-gutter: 20px;
 
 //Colors -----------
-$main-bkg: #f0f0e9;
+$bkg: #312926;
+$main-bkg: asset-url('bkg.jpg') no-repeat top center fixed $bkg;
+$social-bkg: #514640;
+$social-hover: #b5a898;

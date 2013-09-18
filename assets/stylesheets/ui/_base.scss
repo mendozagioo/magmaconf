@@ -1,5 +1,6 @@
 html, body {
-  
+  background: $main-bkg;
+
   &::-webkit-scrollbar {
     display: none;
   }
@@ -40,7 +41,6 @@ h6 {
 
 p {
   font-size: 1.3em;
-  //cursor: url('http://www.useragentman.com/examples/cursor/canvasPainter/canvas_painter_v0.1/images/gimpBrush.png'), auto;
 }
 
 .a {

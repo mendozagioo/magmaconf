@@ -2,10 +2,75 @@
 
 #home {
   .comingsoon {
-    h1 {
-      -webkit-transform: skew(-2deg, -10deg);
-         -moz-transform: skew(-2deg, -10deg);
-              transform: skew(-2deg, -10deg);
+    margin-top: 10%;
+
+    img {
+      padding-left: 26px;
+    }
+
+    p {
+      color: #fff;
+      text-transform: uppercase;
+      padding: 2% 10.3%;
+      font: 100 1em/1.1 'Oswald';
+    }
+
+    .social {
+      overflow: hidden;
+      border-bottom: 4px solid $social-bkg;
+      padding: 1% 0;
+      margin: 4% 16.5% 0 16.5%;
+      padding-bottom: 3%;
+
+      a {
+        width: 50px;
+        height: 35px;
+        padding-top: 15px;
+        float: left;
+        background: $social-bkg;
+        margin-left: 8%;
+        border-radius: 50%;
+
+        &:first-child {
+          margin-left: 0;
+        }
+
+        &:hover {
+          background: $social-hover;
+        }
+      }
+
+      .facebook:hover i {
+        background-position: -68px -50px;
+      }
+
+      .twitter:hover i {
+        background-position: -132px -50px;
+      }
+
+      .google:hover i {
+        background-position: -198px -50px;
+      }
+    }
+
+    .arrow {
+      display: block;
+      margin: 2px 16.5% 13% 16.5%;
+      border-top: 1px solid $social-bkg;
+      padding-top: 10%;
+
+      &:hover i {
+        background-position: 0 0;
+      }
+    }
+  }
+
+  .sponsors {
+    overflow: hidden;
+
+    .spons {
+      width: 33.333333%;
+      float: left;
     }
   }
 }
@@ -18,22 +83,11 @@
 
   p {
     font-family: 'Block';
+    position: relative;
+    top: 52px;
   }
-}
-
-.lens {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  overflow: hidden;
-  border: 3px solid red;
-  border-radius: 50%;
-  top: 252px;
-  left: 20px;
 
   img {
-    position: relative;
-    top: 18px;
-    left: 30px;
+    opacity: 0;
   }
 }
