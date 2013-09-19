@@ -11,7 +11,7 @@
     p {
       color: #fff;
       text-transform: uppercase;
-      padding: 2% 10.3%;
+      padding: 2% 0;
       font: 100 1em/1.1 'Oswald';
     }
 
@@ -71,6 +71,14 @@
     .spons {
       width: 33.333333%;
       float: left;
+
+      &:nth-child(1) {
+        margin-top: 2%;
+      }
+
+      &:nth-child(2) {
+        margin-top: 3%;
+      }
     }
   }
 }
