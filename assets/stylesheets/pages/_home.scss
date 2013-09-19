@@ -102,3 +102,9 @@
     opacity: 0;
   }
 }
+
+@media screen and (max-width: 400px) {
+  #home .sponsors {
+    width: 280px;
+  }
+}

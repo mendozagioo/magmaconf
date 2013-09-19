@@ -1,9 +1,3 @@
 @media screen and (max-width: 767px) {
   @include grid_generator;
 }
-
-@media screen and (max-width: 400px) {
-  .sponsors {
-    width: 280px;
-  }
-}
