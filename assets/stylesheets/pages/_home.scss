@@ -2,7 +2,8 @@
 
 #home {
   .comingsoon {
-    margin-top: 8%;
+    width: 270px;
+    margin: 8% auto 0 auto;
 
     img {
       padding-left: 26px;
@@ -66,8 +67,9 @@
   }
 
   .sponsors {
+    width: 370px;
+    margin: 0 auto 5% auto;
     overflow: hidden;
-    margin-bottom: 5%;
 
     .spons {
       width: 33.333333%;
