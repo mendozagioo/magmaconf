@@ -2,3 +2,28 @@ en:
   title: 'MagmaConf 2014'
   home:
     stay: 'stay tuned...'
+  daily:
+    copy-right: 'Crowd Interactive &copy; 2013. This site is protected by copyright. Under US and international law. All rights reserved'
+    five: 'NO. 5'
+    page: 'PAGE 1'
+    date: 'SEP | 16 | 2013'
+    manzanillo: 'Manzanillo'
+    cooking: 'is getting ready for the new MagmaConf:'
+    happen: 'it will happen from'
+    happen-for: 'June 4th to the 6th, 2014.'
+    manzanillo-text:
+      one: 'MagmaConf is an annual Web Development Conference hosted in the beautiful coastline city: Manzanillo, Colima.'
+      two: 'MagmaConf gathers designers, developers and entrepreneurs from México and the rest of the world with one objective: to create a solid network of people with similar interests, regardless of their different tech backgrounds.'
+      three: '250 Attendees, 18 Conferences speakers, 3 Keynotes and a series of beach-front houses assemble in one of the best web development conferences in México.'
+      four: 'Call for Papers will be open from November 1 to December 30, 2013. Prepare your proposal and stay tuned!'
+    keynotes: 'Keynotes'
+    these: 'These two extraordinary ladies'
+    accepted: 'have accepted the challenge!'
+    desi: 'Desi Macadam'
+    desi-bio: 'She is one of the cofounders of DevChix, an international organization of female software developers, and she loves Ruby. She is also active in the RailsBridge community and spreads the word of diversity.  During the last MagmaConf  she coordinated the first @RailsBridgeMx workshop.'
+    sandi: 'Sandi Metz'
+    sandi-bio: "Sandi Metz has 30 years of experience working on projects that survived to grow and change. She describes herself as an obsessive programmer, Rubyist, cyclist and recalcitrant blogger. Author of 'Practical Object-Oriented Design in Ruby'"
+    yes-we: 'Yes, We are always looking'
+    for: 'for sponsors'
+    organize: 'Sponsor MagmaConf and you will have the chance to showcase your brand in a one-of-a-kind event. An awesome event calls for awesome sponsors, are you one of them?'
+    email: 'info@magmaconf.com'

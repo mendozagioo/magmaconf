@@ -24,8 +24,59 @@
         %a{href: 'http://rubycentral.org/', target: '_blank'}
           %img{src: "#{image_path 'logo-rubycentral.svg'}"}
 
--#%section#daily.container
-  -#.row
+
+%section#daily.container
+  .separator
+  #news
+    .row
+      .twelve-columns.top
+        %p.copy-right= t('daily.copy-right')
+    .row
+      .two-columns.logo
+        %img{src: "#{image_path 'crowd.svg'}"}
+      .eight-columns.title
+        %img{src: "#{image_path 'title-news.svg'}"}
+      .two-columns.mask
+        %img{src: "#{image_path 'mask.svg'}"}
+      .twelve-columns.line
+    .row.stars
+      .two-columns
+        %span= t('daily.five')
+        %span= t('daily.page')
+      .eight-columns
+        %img{src: "#{image_path 'stars.svg'}"}
+      .two-columns.date
+        %span= t('daily.date')
+      .twelve-columns.line
+      .twelve-columns.line-bold
+    .row
+      .six-columns
+        %img{src: "#{image_path 'stbn.jpg'}"}
+        %h1= t('daily.manzanillo')
+        %h3= t('daily.cooking')
+        %h5= t('daily.happen')
+        %h5.last-h5= t('daily.happen-for')
+        %p= t('daily.manzanillo-text.one')
+        %p= t('daily.manzanillo-text.two')
+        %p= t('daily.manzanillo-text.three')
+        %p.last= t('daily.manzanillo-text.four')
+      .six-columns
+        %h1.keynotes= t('daily.keynotes')
+        %h2= t('daily.these')
+        %h2.accepted= t('daily.accepted')
+      .three-columns
+        %img{src: "#{image_path 'desi.jpg'}"}
+        %h4= t('daily.desi')
+        %p= t('daily.desi-bio')
+      .three-columns
+        %img{src: "#{image_path 'sandi.jpg'}"}
+        %h4= t('daily.sandi')
+        %p= t('daily.sandi-bio')
+      .six-columns
+        %h2.yes-we= t('daily.yes-we')
+        %h1.sponsr= t('daily.for')
+        %p.text-sponsor= t('daily.organize')
+        %span.email= t('daily.email')
   -#  %p
   -#    Voy a poner algo aqui para ver si funcionan
   -#    %br

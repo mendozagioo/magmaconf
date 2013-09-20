@@ -14,6 +14,7 @@
       text-transform: uppercase;
       padding: 2% 0;
       font: 100 1em/1.1 'Oswald';
+      word-spacing: 2px;
     }
 
     .social {
@@ -87,19 +88,139 @@
 }
 
 #daily {
-  //width: 624px;
-  //height: 454px;
-  border: 2px solid blue;
-  margin-left: 50px;
-
-  p {
-    font-family: 'Block';
-    position: relative;
-    top: 52px;
+  .separator {
+    height: 5px;
+    background: asset-url('top-news.png');
   }
 
-  img {
-    opacity: 0;
+  #news {
+    background: #fff;
+
+    &:last-child {
+      padding-bottom: 5%;
+    }
+
+    .top {
+      border-bottom: 1px solid $fonts;
+      margin-top: 4%;
+      margin-bottom: 3%;
+
+      p {
+        color: $fonts;
+        font: 0.8em/1.1 'Helvetica', sans-serif;
+        text-align: right;
+        padding-bottom: 3px;
+        word-spacing: 1px;
+      }
+    }
+
+    .logo {
+      padding-top: 0.5%;
+    }
+
+    .stars {
+      margin-top: 0.2%;
+
+      div {
+        padding: 0.5% 0;
+      }
+
+      span {
+        font-family: 'Oswald', 'Helvetica', sans-serif;
+
+        &:nth-child(2) {
+          padding-left: 25%;
+          font-weight: 100;
+        }
+      }
+    }
+
+    .eight-columns {
+      text-align: center;
+    }
+
+    .mask, .date {
+      text-align: right
+    }
+
+    .line {
+      height: 1px;
+      background: $fonts;
+      padding: 0 !important;
+    }
+
+    .line-bold {
+      height: 5px;
+      background: $dark-brownn;
+      margin-top: 0.5%;
+      margin-bottom: 1.5%;
+    }
+
+    p {
+      font-family: 'Block';
+      position: relative;
+      //top: 52px;
+    }
+
+    .six-columns {
+      img {
+        width: 100%;
+      }
+
+      .keynotes {
+        font-size: 10em;
+        margin-left: -3px;
+        margin-top: -14px;
+      }
+
+      .accepted {
+        font-size: 3.4em;
+        padding-bottom: 1.5%;
+        border-bottom: 1px solid $fonts;
+        margin-bottom: 3%;
+      }
+
+      .last {
+        border-bottom: 1px solid $fonts;
+      }
+
+      .last-h5 {
+        border-bottom: 1px solid $fonts;
+        margin-bottom: 4%;
+        font-size: 4.1em;
+      }
+
+      h1.sponsr {
+        font-size: 6.7em;
+      }
+
+      .yes-we {
+        font-size: 3.7em;
+        border-top: 1px solid #000;
+        margin-top: 2.5%;
+        padding-top: 1%;
+      }
+
+      .text-sponsor {
+        padding-top: 2%;
+      }
+
+      .email {
+        display: block;
+        background: $fonts;
+        color: #fff;
+        text-align: right;
+        font: 100 1.6em/1.7 'Oswald';
+        padding-right: 10px;
+        margin-top: 3%;
+      }
+    }
+
+    .three-columns {
+      img {
+        width: 100%;
+      }
+    }
   }
 }
 

@@ -12,25 +12,33 @@ h2,
 h3,
 h4,
 h5,
-h6,
-p {
-  font: 100 5em/1.1 'Roboto', sans-serif;
+h6 {
+  font: 100 8em/1.1 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-weight: bold;
+  margin-left: -4px;
 }
 
 h2 {
-  font-size: 3.5em;
+  font-size: 3.15em;
 }
 
 h3 {
-  font-size: 3em;
+  font-size: 2.2em;
+  font-weight: bold;
 }
 
 h4 {
-  font-size: 2.5em;
+  font-size: 3.1em;
+  font-weight: 500;
+  padding-bottom: 5%;
 }
 
 h5 {
-  font-size: 2em;
+  font-size: 5.1em;
 }
 
 h6 {
@@ -40,7 +48,10 @@ h6 {
 }
 
 p {
-  font-size: 1.3em;
+  font-size: 1.4em;
+  word-spacing: -20px;
+  line-height: 15px;
+  padding-bottom: 3.5%;
 }
 
 .a {
