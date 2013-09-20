@@ -35,7 +35,8 @@
       .two-columns.logo
         %img{src: "#{image_path 'crowd.svg'}"}
       .eight-columns.title
-        %img{src: "#{image_path 'title-news.svg'}"}
+        %img.tit{src: "#{image_path 'title-news.svg'}"}
+        %img.tit-mob{src: "#{image_path 'dayli.svg'}"}
       .two-columns.mask
         %img{src: "#{image_path 'mask.svg'}"}
       .twelve-columns.line
@@ -51,38 +52,33 @@
       .twelve-columns.line-bold
     .row
       .six-columns
-        %img{src: "#{image_path 'stbn.jpg'}"}
+        %img.stb{src: "#{image_path 'stbn.jpg'}"}
         %h1= t('daily.manzanillo')
         %h3= t('daily.cooking')
         %h5= t('daily.happen')
         %h5.last-h5= t('daily.happen-for')
-        %p= t('daily.manzanillo-text.one')
-        %p= t('daily.manzanillo-text.two')
-        %p= t('daily.manzanillo-text.three')
-        %p.last= t('daily.manzanillo-text.four')
+        %p.hov= t('daily.manzanillo-text.one')
+        %p.hov= t('daily.manzanillo-text.two')
+        %p.hov= t('daily.manzanillo-text.three')
+        %p.hov.last= t('daily.manzanillo-text.four')
+        %img#text{src: "#{image_path 'text.jpg'}", width: "570", height: "270"}
       .six-columns
         %h1.keynotes= t('daily.keynotes')
         %h2= t('daily.these')
         %h2.accepted= t('daily.accepted')
       .three-columns
-        %img{src: "#{image_path 'desi.jpg'}"}
+        %img.des-san{src: "#{image_path 'desi.jpg'}"}
         %h4= t('daily.desi')
         %p= t('daily.desi-bio')
+        %img#desi{src: "#{image_path 'desi-bio.jpg'}", width: "270", height: "210"}
       .three-columns
-        %img{src: "#{image_path 'sandi.jpg'}"}
+        %img.des-san{src: "#{image_path 'sandi.jpg'}"}
         %h4= t('daily.sandi')
         %p= t('daily.sandi-bio')
-      .six-columns
+        %img#sandi{src: "#{image_path 'sandi-bio.jpg'}", width: "270", height: "175"}
+      .six-columns.we
         %h2.yes-we= t('daily.yes-we')
         %h1.sponsr= t('daily.for')
-        %p.text-sponsor= t('daily.organize')
+        %p.hov.text-sponsor= t('daily.organize')
         %span.email= t('daily.email')
-  -#  %p
-  -#    Voy a poner algo aqui para ver si funcionan
-  -#    %br
-  -#    para que pueda funcionar
-  -#    %br
-  -#    como lo tengo pensado,
 
-  -# .lens
-  -#   %img#img_01{src: "#{image_path 'natura.jpg'}", width: "384", height: "240"}

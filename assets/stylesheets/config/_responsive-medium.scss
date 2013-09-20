@@ -4,4 +4,62 @@
   @include grid_offset($gm-column, $gm-gutter);
 
   @include grid_centered($gm-column, $gm-gutter);
+
+  .keynotes {
+    font-size: 6.5em !important;
+    margin-top: -9px !important;
+  }
+
+  h1 {
+    font-size: 5.1em;
+  }
+
+  h2, h4 {
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.4em;
+  }
+
+  h5 {
+    font-size: 3.3em;
+  }
+
+  .last-h5 {
+    font-size: 2.67em !important;
+  }
+
+  .accepted {
+    font-size: 2.2em !important;
+  }
+
+  .yes-we {
+    font-size: 2.39em !important;
+  }
+
+  .sponsr {
+    font-size: 4.3em !important;
+  }
+
+  .six-columns p {
+    font-family: 'Helvetica', sans-serif !important;
+    word-spacing: 1px;
+    line-height: 25px;
+  }
+
+  #daily #news p {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.2em;
+    word-spacing: 1px;
+    line-height: 25px;
+  }
+
+  #text, #desi, #sandi, #sponsors {
+    display: none;
+  }
+
+  #daily #news .we {
+    margin-top: 0;
+  }
 }

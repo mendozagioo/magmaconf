@@ -10,9 +10,9 @@
 @import 'ui/base';
 @import 'ui/icons';
 
+@import 'pages/layout';
+@import 'pages/home';
+
 @import 'config/responsive-large';
 @import 'config/responsive-medium';
 @import 'config/responsive-short';
-
-@import 'pages/layout';
-@import 'pages/home';
