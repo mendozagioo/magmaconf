@@ -16,6 +16,8 @@ class Crowdsite < Sinatra::Base
     sprockets.append_path File.join(root, 'assets', 'javascripts')
     sprockets.append_path File.join(root, 'assets', 'images')
     sprockets.append_path File.join(root, 'assets', 'fonts')
+    
+    I18n.default_locale = :en
   end
 
   configure :production do
